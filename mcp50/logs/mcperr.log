@@ -1,0 +1,9 @@
+10:48:54 - !! Modified jar detected. Unpredictable results !!
+10:49:17 - 'patch -p1 -u -i ../../temp/temp.patch -d src/minecraft' failed : 1
+10:49:17 - 
+10:49:17 - == ERRORS FOUND ==
+10:49:17 - When decompiling with ModLoader a single hunk failure in RenderBlocks is expected and is not a problem
+10:49:17 - 
+10:49:17 - 1 out of 1 hunk FAILED -- saving rejects to file net/minecraft/src/RenderBlocks.java.rej
+10:49:17 - ==================
+10:49:17 - 

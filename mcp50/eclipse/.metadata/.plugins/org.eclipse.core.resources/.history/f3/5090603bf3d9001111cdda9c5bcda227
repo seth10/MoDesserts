@@ -1,0 +1,9 @@
+package net.minecraft.src;
+
+import java.util.Random;
+
+public class BlockCupcakeMaker extends Block{
+    public BlockCupcakeMaker(){
+        super(125, 0, Material.rock);
+    }
+} 

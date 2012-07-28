@@ -1,0 +1,26 @@
+package net.minecraft.src;
+
+import java.util.Random;
+
+public class BlockCupcakeMaker extends Block
+{
+    public BlockCupcakeMaker(int par1, int par2)
+    {
+        super(par1, par2, Material.rock);
+    }
+  
+    public int idDropped(int par1, Random par2Random, int par3)
+    {
+        return 0;
+    }
+    
+    public void onBlockDestroyedByPlayer(World world, int i, int j, int k, int l)
+    {
+    	EntityItem ei1 = new EntityItem(world, i, j, k, new ItemStack(Block.stoneOvenIdle));
+    	EntityItem ei2 = new EntityItem(world, i, j, k, new ItemStack(Block.dispenser));
+    	EntityItem ei3 = new EntityItem(world, i, j, k, new ItemStack(mod_MoDesserts.cupcakeMaker));
+    	world.spawnEntityInWorld(ei1);
+    	world.spawnEntityInWorld(ei2);
+    	world.spawnEntityInWorld(ei3);
+    } 
+} 

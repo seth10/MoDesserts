@@ -1,0 +1,16 @@
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader init
+FINE: ModLoader 1.2.5 Initializing...
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Adding mods from /Users/Coolfolder/Desktop/MCPMoDesserts/eclipse/Client/bin
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Directory found.
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_MoDesserts 1.0" from mod_MoDesserts.class
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/MoDesserts/cupcakeMaker.png,168). 31 left.
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader addOverride
+FINER: addOverride(/terrain.png,/MoDesserts/cupcakeMakerTop.png,169). 30 left.
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_MoDesserts 1.0"
+Jul 30, 2012 7:46:21 PM net.minecraft.src.ModLoader addAllRenderers
+FINE: Initialized
